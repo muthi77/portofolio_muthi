@@ -1,0 +1,133 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3d5a80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+.container {
+  border-style: solid;
+  border-color: #98c1d9;
+  border-width: 3px;
+  width: 75%;
+  height: auto;
+  max-width: 90vw;
+  margin: 25px;
+  padding: 30px 10px;
+  text-align: center;
+  background-color: #f0f4f8;
+}
+.container p {
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #2f2f2f;
+}
+.container h3 {
+  margin-top: 1.5cm;
+  font-size: 1.6em;
+  color: #2f2f2f;
+}
+.head h1 {
+  font-size: 3em;
+  margin: 10px;
+  color: #2f2f2f;
+}
+.head h3 {
+  font-size: 1.6em;
+  color: #2f2f2f;
+}
+.head p {
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #2f2f2f;
+}
+.ul-navindex {
+  list-style-type: none;
+  padding: 10px;
+}
+.li-navindex {
+  font-size: large;
+  background-color: #98c1d9;
+  border-radius: 6px;
+  list-style: none;
+  border-style: ridge;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.li-navindex a {
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+.li-navindex a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+.navindex {
+  background-color: #98c1d9;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  border-style: ridge;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+.navindex p {
+  font-weight: bold;
+  margin-left: 25px;
+}
+.ul-navindex2 {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.li-navindex2 {
+  list-style-type: none;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.li-navindex2 a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+.container img {
+  width: 30%;
+  height: auto;
+  margin-left: 10px;
+}
+.sertifikat {
+  margin-top: 1cm;
+}
